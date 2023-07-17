@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElectroMVC", "ElectroMVC.csproj", "{1DD3CB16-9B27-4CDA-90DA-2AC6906934FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DD3CB16-9B27-4CDA-90DA-2AC6906934FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD3CB16-9B27-4CDA-90DA-2AC6906934FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD3CB16-9B27-4CDA-90DA-2AC6906934FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD3CB16-9B27-4CDA-90DA-2AC6906934FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B2F5B27-47B4-4481-B080-75FEC5750872}
+	EndGlobalSection
+EndGlobal
