@@ -27,7 +27,7 @@ namespace ElectroMVC.Controllers
         }
         // GET: Products by Search
         [HttpPost]
-        public async Task<IActionResult> Index(int cateId, string keywords)
+        public async Task<IActionResult> Search(int cateId, string keywords)
         {
             var electroMVCContext = _context.Product.Include(p => p.Brand)
                 .Include(p => p.Category).Where(p=>p.ProductName

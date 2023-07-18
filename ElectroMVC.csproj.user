@@ -17,6 +17,6 @@
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
     <_SelectedScaffolderID>RazorViewScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
-    <WebStackScaffolding_LayoutPageFile>~/Views/Shared/_ProductList.cshtml</WebStackScaffolding_LayoutPageFile>
+    <WebStackScaffolding_LayoutPageFile>~/Views/Shared/_HomePage.cshtml</WebStackScaffolding_LayoutPageFile>
   </PropertyGroup>
 </Project>
