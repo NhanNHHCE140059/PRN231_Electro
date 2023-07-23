@@ -8,7 +8,7 @@
 <h1>List Of Brand</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
 </p>
 <table class="w3-table-all">
     <thead>
@@ -25,9 +25,9 @@
             <td>@Html.DisplayFor(modelItem => item.BrandDescription)</td>
             <td>@Html.DisplayFor(modelItem => item.BrandOrder)</td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.BrandId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.BrandId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.BrandId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.BrandId" class="btn btn-success">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.BrandId" class="btn btn-info">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.BrandId" class="btn btn-danger">Delete</a>
             </td>
     </tr>
 }
